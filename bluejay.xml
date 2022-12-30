@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--
+    * target: Google sunfish(Pixel4a)
+    * rom: TWRP Recovery Project
+    -->
+
+    <!-- Remote -->
+    <remote fetch="https://github.com/EinKara" name="bluejay" />
+
+    <project path="device/google/bluejay-sepolicy" name="device/google/bluejay-sepolicy" groups="device,bluejay" />
+    <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" />
+    <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel"/>
+    <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel"/>
+
+    <!-- Device -->
+    <project name="android_device_google_bluejay" path="device/google/bluejay" remote="bluejay" revision="android-13" />
+
+    <!-- Kernel -->
+    <project name="android_device_google_bluejay-kernel" path="device/google/bluejay-kernel" remote="bluejay" revision="android-13" />
+</manifest>
