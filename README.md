@@ -19,10 +19,7 @@ $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optim
 $ . build/envsetup.sh
 $ lunch twrp_bluejay-eng
 $ make bootimage
-```
 
-## Credits
-2022 @notokay3272
 
 ##for windows I think its like this:
 
@@ -42,4 +39,9 @@ make bootimage
 
 
 ##lmk if that works for windows cuz I dont have my pc rn
+```
+
+## Credits
+2022 @notokay3272
+
 
