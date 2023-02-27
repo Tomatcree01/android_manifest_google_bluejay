@@ -1,3 +1,4 @@
+# The dev of this proj removed its decaped now....
 #[TWRP Recovery Project but for other  commands--ncproc doesnt work on any other platforms except linux. Also for some of these commands you need to insatll them with brew and you need cli command line (comes with android studio) for lunch command and envsetup.sh]
 
 ### How to build for MAC OSX###
